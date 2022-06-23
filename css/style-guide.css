@@ -1,0 +1,107 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding: 20px;
+    color: #6B8999;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.logo {
+    width: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+img {
+    min-width: 200px;
+}
+
+.inscri {
+    
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+#negrito {
+    font-weight: bold;
+}
+
+.titulo {
+    
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.sublinhado {
+    font-weight: bold;
+    color: blue;
+}
+
+table td {
+    padding: 20px;
+    columns: row;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+p {
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.formulario, button {
+    display: block;
+    margin: auto;
+}
+
+button {
+    border-color: #1566D1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: #1566D1;
+    padding: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 80px;
+}
+
+.duvida {
+    margin-left: 20px;
+    color: #5A5A5A;
+    padding-bottom: 10px;
+}
+
+footer > p {
+    color: #526A76;
+}
